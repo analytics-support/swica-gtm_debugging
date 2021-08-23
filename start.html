@@ -43,14 +43,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
 			<a id="data-button-hello-external" href="#" class="myButton" onclick="dataLayer.push({
-         'event': 'message_start', 
-         'message_reason': 'General enquiry'
-				});">Message Start - General enquiry
+        'event': 'message_start', 
+        'message_reason': 'General enquiry',
+      	'message_start': 1
+				});">Message Start - Mit Counter
 			</a>
 			<a id="data-button-hello-external" href="#" class="myButton" onclick="dataLayer.push({
          'event': 'document_upload_start', 
-         'document_method': 'select'
-        });">Document Upload Start
+         'document_method': 'select',
+	'document_upload_start': 1										      
+        			});">Document Upload Start - Mit Counter
 			</a>
 		
 			
